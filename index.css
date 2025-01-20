@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    border: 10px solid green;
+    margin: 0;
+}
+
+#circle{
+    width: 20px;
+    aspect-ratio: 1;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    transition: .2s;
+}
+.game-box{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    opacity: 0.4;
+    cursor: pointer;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.target{
+    position: absolute;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
