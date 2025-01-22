@@ -278,3 +278,31 @@ const factorial = (num) => {
   }
 };
 factorial(125);
+
+
+// try catch block
+function divider() {
+  let number = prompt("Enter a number>>>");
+  //   console.log(typeof number);
+
+  if (parseInt(number) === 0) {
+    throw new Error("Cannot divide by zero");
+  }
+  let answer = 20 / number;
+  console.log(answer);
+  console.log("a")
+  console.log("b")
+  console.log("c")
+}
+try {
+    divider();
+} catch (error) {
+  console.log(error.message);
+}finally{
+    console.log("Finished");
+    try{
+        divider();
+    }catch(err){
+        console.log(err.message);
+    }
+}

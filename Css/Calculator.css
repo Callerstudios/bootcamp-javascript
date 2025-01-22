@@ -1,0 +1,71 @@
+.calbody {
+  margin: 0 auto;
+  width: 300px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+}
+
+.screen {
+  border-radius: 10px;
+  background-color: white;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    height: 50px;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.zero {
+  margin-right: 30px;
+  margin-bottom: 15px;
+  /* color: white; */
+
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.btn {
+  width: 60px;
+  border-radius: 50%;
+  height: 60px;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.05);
+    filter: brightness(1.5);
+  }
+}
+
+.btn-ash {
+  background-color: #999999;
+  color: black;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.btn-yellow {
+  background-color: #ed9507;
+  color: white;
+  font-size: x-large;
+}
+
+.btn-blackash {
+  background-color: #2e2e2e;
+  color: white;
+  font-size: x-large;
+}
